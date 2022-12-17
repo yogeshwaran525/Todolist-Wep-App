@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todostyle.css">
+</head>
+<body>
+    <header>      ToDolist   </header>
+    <form method="post"  id="form-container">
+        <input type="text" class="task-input" id="task-input" placeholder="Enter Daily Todo lists">
+        <input type="submit" class="task-submit" id="task-submit" value="ADDTASK">
+    </form>
+
+    <main>
+        <section class="todo-list">
+            <h1>Tasks</h1>
+                <div id="task-container">
+            <!-- Task input goes here  -->
+                    <!-- <div class="task-container">
+                        <div class="Innercontent">
+                            <input type="text" class="text" value="New Task" readonly>                         
+                                <div class="actionbutton">
+                                    <button class="edit" value="Edit">Edit</button>
+                                    <button class="delete" value="Delete">Delete</button>
+                                </div>
+                        </div>        
+                    </div> -->
+            <!-- Task input goes here  -->
+                </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+    <script src="Todolist.js"></script>
+</body>
+</html>
